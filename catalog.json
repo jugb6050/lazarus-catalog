@@ -1,0 +1,411 @@
+{
+  "version": 1,
+  "updated": "2026-10-12",
+  "items": [
+    {
+      "id": "context7",
+      "kind": "mcp",
+      "name": "Context7",
+      "recommended": true,
+      "added": "2026-10-12",
+      "summary": "Up-to-date library docs and code examples, pulled live into the chat.",
+      "why": "Stops agents guessing at APIs that changed since their training.",
+      "repo": "upstash/context7",
+      "install": {
+        "transport": "stdio",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@upstash/context7-mcp"
+        ]
+      },
+      "starsBase": 62943,
+      "baseAt": "2026-10-12",
+      "starsGain7d": 0,
+      "stars": 62943,
+      "created": "2025-03-26",
+      "statsAt": "2026-10-12"
+    },
+    {
+      "id": "playwright",
+      "kind": "mcp",
+      "name": "Playwright",
+      "recommended": true,
+      "added": "2026-10-12",
+      "summary": "Drive a real browser: navigate, click, screenshot and test.",
+      "why": "Lets the agent check its own UI work instead of asking you.",
+      "repo": "microsoft/playwright-mcp",
+      "install": {
+        "transport": "stdio",
+        "command": "npx",
+        "args": [
+          "-y",
+          "@playwright/mcp@latest"
+        ]
+      },
+      "starsBase": 38064,
+      "baseAt": "2026-10-12",
+      "starsGain7d": 0,
+      "stars": 38064,
+      "created": "2025-03-21",
+      "statsAt": "2026-10-12"
+    },
+    {
+      "id": "chrome-devtools",
+      "kind": "mcp",
+      "name": "Chrome DevTools",
+      "recommended": true,
+      "added": "2026-10-12",
+      "summary": "Inspect network, console, performance traces and the DOM in a live Chrome.",
+      "why": "Best fit for debugging slow or broken pages.",
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "install": {
+        "transport": "stdio",
+        "command": "npx",
+        "args": [
+          "-y",
+          "chrome-devtools-mcp@latest"
+        ]
+      },
+      "starsBase": 53365,
+      "baseAt": "2026-10-12",
+      "starsGain7d": 0,
+      "stars": 53365,
+      "created": "2025-09-11",
+      "statsAt": "2026-10-12"
+    },
+    {
+      "id": "firecrawl",
+      "kind": "mcp",
+      "name": "Firecrawl",
+      "added": "2026-10-12",
+      "summary": "Scrape, crawl and search the web into clean Markdown.",
+      "repo": "firecrawl/firecrawl-mcp-server",
+      "install": {
+        "transport": "stdio",
+        "command": "npx",
+        "args": [
+          "-y",
+          "firecrawl-mcp"
+        ],
+        "secrets": [
+          "FIRECRAWL_API_KEY"
+        ]
+      },
+      "starsBase": 7588,
+      "baseAt": "2026-10-12",
+      "starsGain7d": 0,
+      "stars": 7588,
+      "created": "2024-12-06",
+      "statsAt": "2026-10-12"
+    },
+    {
+      "id": "supabase",
+      "kind": "mcp",
+      "name": "Supabase",
+      "added": "2026-10-12",
+      "summary": "Manage projects, tables, migrations and run SQL (sign in on first use).",
+      "repo": "supabase-community/supabase-mcp",
+      "install": {
+        "transport": "http",
+        "url": "https://mcp.supabase.com/mcp"
+      },
+      "starsBase": 2947,
+      "baseAt": "2026-10-12",
+      "starsGain7d": 0,
+      "stars": 2947,
+      "created": "2024-12-20",
+      "statsAt": "2026-10-12"
+    },
+    {
+      "id": "vercel",
+      "kind": "mcp",
+      "name": "Vercel",
+      "added": "2026-10-12",
+      "summary": "Deployments, logs and projects (sign in on first use).",
+      "install": {
+        "transport": "http",
+        "url": "https://mcp.vercel.com"
+      }
+    },
+    {
+      "id": "github-remote",
+      "kind": "mcp",
+      "name": "GitHub (official)",
+      "recommended": true,
+      "added": "2026-10-12",
+      "summary": "Issues, pull requests, code search and Actions through GitHub's own server.",
+      "why": "The maintained successor to the old npm GitHub server.",
+      "repo": "github/github-mcp-server",
+      "install": {
+        "transport": "http",
+        "url": "https://api.githubcopilot.com/mcp/",
+        "secrets": [
+          "Authorization"
+        ]
+      },
+      "note": "Set the Authorization value to: Bearer <your GitHub token>",
+      "starsBase": 33554,
+      "baseAt": "2026-10-12",
+      "starsGain7d": 0,
+      "stars": 33554,
+      "created": "2025-03-04",
+      "statsAt": "2026-10-12"
+    },
+    {
+      "id": "superpowers",
+      "kind": "skill",
+      "name": "Superpowers",
+      "recommended": true,
+      "added": "2026-10-12",
+      "summary": "A full workflow of skills: brainstorming, plans, TDD, debugging, code review and verification.",
+      "why": "The most-starred skills collection; the habits it teaches (plan, test first, verify) pay off on every project.",
+      "repo": "obra/superpowers",
+      "install": {
+        "repo": "obra/superpowers",
+        "paths": [
+          "skills/brainstorming",
+          "skills/writing-plans",
+          "skills/test-driven-development",
+          "skills/systematic-debugging",
+          "skills/verification-before-completion"
+        ]
+      },
+      "starsBase": 298142,
+      "baseAt": "2026-10-12",
+      "starsGain7d": 0,
+      "stars": 298142,
+      "created": "2025-10-09",
+      "statsAt": "2026-10-12"
+    },
+    {
+      "id": "frontend-design",
+      "kind": "skill",
+      "name": "Frontend Design",
+      "recommended": true,
+      "added": "2026-10-12",
+      "summary": "Guidance for distinctive, intentional UI instead of templated defaults.",
+      "repo": "anthropics/skills",
+      "install": {
+        "repo": "anthropics/skills",
+        "paths": [
+          "skills/frontend-design"
+        ]
+      },
+      "starsBase": 180714,
+      "baseAt": "2026-10-12",
+      "starsGain7d": 0,
+      "stars": 180714,
+      "created": "2025-09-22",
+      "statsAt": "2026-10-12"
+    },
+    {
+      "id": "mcp-builder",
+      "kind": "skill",
+      "name": "MCP Builder",
+      "added": "2026-10-12",
+      "summary": "How to build a high-quality MCP server in Python or TypeScript.",
+      "repo": "anthropics/skills",
+      "install": {
+        "repo": "anthropics/skills",
+        "paths": [
+          "skills/mcp-builder"
+        ]
+      },
+      "starsBase": 180714,
+      "baseAt": "2026-10-12",
+      "starsGain7d": 0,
+      "stars": 180714,
+      "created": "2025-09-22",
+      "statsAt": "2026-10-12"
+    },
+    {
+      "id": "webapp-testing",
+      "kind": "skill",
+      "name": "Web App Testing",
+      "added": "2026-10-12",
+      "summary": "Test local web apps with Playwright and capture screenshots and logs.",
+      "repo": "anthropics/skills",
+      "install": {
+        "repo": "anthropics/skills",
+        "paths": [
+          "skills/webapp-testing"
+        ]
+      },
+      "starsBase": 180714,
+      "baseAt": "2026-10-12",
+      "starsGain7d": 0,
+      "stars": 180714,
+      "created": "2025-09-22",
+      "statsAt": "2026-10-12"
+    },
+    {
+      "id": "skill-creator",
+      "kind": "skill",
+      "name": "Skill Creator",
+      "added": "2026-10-12",
+      "summary": "Create, test and improve your own skills.",
+      "repo": "anthropics/skills",
+      "install": {
+        "repo": "anthropics/skills",
+        "paths": [
+          "skills/skill-creator"
+        ]
+      },
+      "starsBase": 180714,
+      "baseAt": "2026-10-12",
+      "starsGain7d": 0,
+      "stars": 180714,
+      "created": "2025-09-22",
+      "statsAt": "2026-10-12"
+    },
+    {
+      "id": "opencode",
+      "kind": "cli",
+      "name": "OpenCode",
+      "recommended": true,
+      "added": "2026-10-12",
+      "summary": "Open-source terminal coding agent that works with 75+ models.",
+      "why": "The model-flexible option if you want to bring your own keys.",
+      "repo": "anomalyco/opencode",
+      "install": {
+        "command": "npm install -g opencode-ai",
+        "check": "opencode --version"
+      },
+      "starsBase": 212933,
+      "baseAt": "2026-10-12",
+      "starsGain7d": 0,
+      "stars": 212933,
+      "created": "2025-04-30",
+      "statsAt": "2026-10-12"
+    },
+    {
+      "id": "gemini-cli",
+      "kind": "cli",
+      "name": "Gemini CLI",
+      "added": "2026-10-12",
+      "summary": "Google's open-source terminal agent with a generous free tier.",
+      "repo": "google-gemini/gemini-cli",
+      "install": {
+        "command": "npm install -g @google/gemini-cli",
+        "check": "gemini --version"
+      },
+      "starsBase": 107298,
+      "baseAt": "2026-10-12",
+      "starsGain7d": 0,
+      "stars": 107298,
+      "created": "2025-04-17",
+      "statsAt": "2026-10-12"
+    },
+    {
+      "id": "codex",
+      "kind": "cli",
+      "name": "Codex CLI",
+      "added": "2026-10-12",
+      "summary": "OpenAI's terminal coding agent with sandboxed command execution.",
+      "repo": "openai/codex",
+      "install": {
+        "command": "npm install -g @openai/codex",
+        "check": "codex --version"
+      },
+      "starsBase": 128826,
+      "baseAt": "2026-10-12",
+      "starsGain7d": 0,
+      "stars": 128826,
+      "created": "2025-04-13",
+      "statsAt": "2026-10-12"
+    },
+    {
+      "id": "ripgrep",
+      "kind": "cli",
+      "name": "ripgrep",
+      "recommended": true,
+      "added": "2026-10-12",
+      "summary": "Very fast code search. Agents and editors lean on it constantly.",
+      "repo": "BurntSushi/ripgrep",
+      "install": {
+        "command": "brew install ripgrep",
+        "check": "rg --version"
+      },
+      "starsBase": 69099,
+      "baseAt": "2026-10-12",
+      "starsGain7d": 0,
+      "stars": 69099,
+      "created": "2016-03-11",
+      "statsAt": "2026-10-12"
+    },
+    {
+      "id": "uv",
+      "kind": "cli",
+      "name": "uv",
+      "recommended": true,
+      "added": "2026-10-12",
+      "summary": "Fast Python package and tool manager; runs `uvx` MCP servers.",
+      "repo": "astral-sh/uv",
+      "install": {
+        "command": "brew install uv",
+        "check": "uv --version"
+      },
+      "starsBase": 90656,
+      "baseAt": "2026-10-12",
+      "starsGain7d": 0,
+      "stars": 90656,
+      "created": "2023-10-02",
+      "statsAt": "2026-10-12"
+    },
+    {
+      "id": "gh",
+      "kind": "cli",
+      "name": "GitHub CLI",
+      "added": "2026-10-12",
+      "summary": "Pull requests, issues and releases from the terminal.",
+      "repo": "cli/cli",
+      "install": {
+        "command": "brew install gh",
+        "check": "gh --version"
+      },
+      "starsBase": 46667,
+      "baseAt": "2026-10-12",
+      "starsGain7d": 0,
+      "stars": 46667,
+      "created": "2019-10-03",
+      "statsAt": "2026-10-12"
+    },
+    {
+      "id": "repomix",
+      "kind": "cli",
+      "name": "Repomix",
+      "added": "2026-10-12",
+      "summary": "Packs a repo into one AI-friendly file for big-picture questions.",
+      "repo": "yamadashy/repomix",
+      "install": {
+        "command": "npm install -g repomix",
+        "check": "repomix --version"
+      },
+      "starsBase": 28806,
+      "baseAt": "2026-10-12",
+      "starsGain7d": 0,
+      "stars": 28806,
+      "created": "2024-07-13",
+      "statsAt": "2026-10-12"
+    },
+    {
+      "id": "lazygit",
+      "kind": "cli",
+      "name": "lazygit",
+      "added": "2026-10-12",
+      "summary": "A fast terminal UI for staging, rebasing and untangling git.",
+      "repo": "jesseduffield/lazygit",
+      "install": {
+        "command": "brew install lazygit",
+        "check": "lazygit --version"
+      },
+      "starsBase": 83129,
+      "baseAt": "2026-10-12",
+      "starsGain7d": 0,
+      "stars": 83129,
+      "created": "2018-05-19",
+      "statsAt": "2026-10-12"
+    }
+  ]
+}
